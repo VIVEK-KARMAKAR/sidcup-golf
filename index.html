@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidcup Family Golf</title>
+    <link href="/stylesheets/output.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app" class="w-full h-full overflow-hidden text-white bg-black font-montserrat">
+
+      <header class="h-[107px] flex items-center justify-between xl:justify-start px-5 fixed z-[98] w-full xl:gap-32 xl:px-36 xl:h-[140px]">
+        <img src="/logo-white.svg" alt="" class="h-[60px] xl:h-[75px]">
+        <button type="button" class="border-2 uppercase text-[13px] font-medium border-[#B3E824] rounded-full px-8 p-[0.6rem] bg-black xl:hidden">book now</button>
+        <img src="/menu.svg" alt="" class="h-10 xl:hidden">
+        <nav class="relative z-50 hidden gap-16 uppercase xl:flex">
+          <a href="/pages/toptracer.html" class="font-medium hover:text-[#B3E824]">toptracer range</a>
+          <h5 class="font-medium hover:text-[#B3E824]">Golf lessons</h5>
+          <h5 class="font-medium hover:text-[#B3E824]">adventure golf</h5>
+          <h5 class="font-medium hover:text-[#B3E824]">cafe</h5>
+          <h5 class="font-medium hover:text-[#B3E824]">events</h5>
+        </nav>
+        <div class="hidden gap-2 xl:flex w-fit">
+          <button type="button" class="p-3 px-10 uppercase bg-black border-[3px] rounded-full border-[#95C11E] ">book range</button>
+          <button type="button" class="p-3 px-10 uppercase bg-black border-[3px] rounded-full border-[#95C11E] ">book golf</button>
+        </div>
+      </header>
+
+      <video id="video" src="/assets/videos/SFG-Website-Header-Video-0823.mp4" autoplay muted loop class="fixed z-40 object-cover w-screen h-screen opacity-55"></video>
+      
+      <!-- <div id="cursor" class="fixed z-[99] w-6 h-6 rounded-full bg-[#B3E824]"></div>
+      <div id="cursor-blur" class="fixed z-[97] rounded-full h-96 w-96 bg-[#b4e8243a] blur-[100px]"></div> -->
+      
+      <div id="main" class="relative z-50">
+        
+        <div id="hero" class="relative z-50 flex flex-col items-center justify-center w-full h-screen gap-2 text-center xl:pt-14 xl:gap-4">
+          <h1 class="text-5xl uppercase font-black w-[90%] leading-[0.9em] xl:text-[9rem]">Eat. Drink. Play.</h1>
+          <h3 class="text-xl font-black w-[90%]  uppercase leading-relaxed xl:text-3xl xl:mt-4">Welcome to Sidcup Family Golf!</h3>
+          <p class="w-[90%] leading-snug  xl:w-2/5 xl:text-xl">Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. Passionate about technology, player development and making golf fun and accessible to everyone.</p>
+          <div id="circle" class="h-[230px] w-[230px] border-2 rounded-full border-[#B3E824] absolute bottom-0 -left-14"></div>
+        </div>
+        
+        <div id="page2" class="relative z-50 flex flex-col w-screen overflow-hidden h-[80vh]">
+          <div id="marquee" class="flex gap-3 mt-6 font-['Gilroy'] text-5xl uppercase whitespace-nowrap stroke text-black font-black xl:text-9xl">
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">coffee shop</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">toptracer range</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">golf lessons</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">crazy golf</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">coffee shop</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">toptracer range</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">golf lessons</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">crazy golf</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">coffee shop</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">toptracer range</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">golf lessons</h3>
+            <h3 class="transition-all hover:text-[#B3E824] cursor-pointer">crazy golf</h3>
+          </div>
+          <div id="about-us" class="relative z-50 flex w-full h-full px-4">
+            <div class="relative z-50 flex w-full mt-16 xl:items-center">
+              <div id="about-images" class="absolute z-50 flex justify-between w-full ">
+                <img src="/assets/images/home-about-1.avif" alt="" class="h-[180px] w-[180px] object-cover rounded-xl xl:h-60 xl:w-60 xl:ml-16">
+                <img src="/assets/images/home-about-2.avif" alt="" class="h-[180px] w-[180px] object-cover rounded-xl xl:h-80 xl:w-60 xl:mr-20 relative xl:bottom-16">
+              </div>
+              <div id="about-text" class="absolute z-50 flex flex-col items-center gap-4 text-center w-fit top-52 xl:top-0 xl:gap-8">
+                <h2 class="text-4xl font-black uppercase xl:text-[3.4rem]">About Us</h2>
+                <p class="leading-loose xl:font-medium xl:text-lg xl:w-[50%] xl:tracking-wider xl:leading-loose">Home to a 46-bay, multi-tier, floodlit driving range, powered by Toptracer Range technology. Complimented by a practice green and bunker, coffee shop and American Golf Store. There truly is something for everyone as we also boast two outdoor 18-hole dinosaur themed crazy golf courses.</p>
+                <p class="leading-loose xl:text-xl">Please note: we are a cashless venue. The range closes at 10pm with last balls at 9pm.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="cards" class="relative z-50 px-4 py-10 ">
+          <img src="/assets/images/dots-white.svg" alt="" class="absolute left-0 h-20 xl:h-40 xl:left-32">
+          <div id="cards-container" class="relative flex flex-col gap-4 mt-10 xl:flex-row xl:px-32 xl:gap-16">
+            <div class="w-full h-80 xl:h-[60vh] rounded-2xl relative bg-[url('/assets/images/home-toptracer-1024x682.avif')] bg-center bg-cover">
+              
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black opacity-50 backdrop-blur-[1px] rounded-2xl"></div>
+              
+              <h1 class="absolute text-2xl font-black uppercase xl:text-4xl bottom-6 left-8">toptracer range</h1>
+            </div>
+            <div class="w-full h-80 xl:h-[60vh] rounded-2xl relative bg-[url('/assets/images/hero-4-1024x1024.avif')] bg-center bg-cover">
+  
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black opacity-50 backdrop-blur-[1px] rounded-2xl"></div>
+              
+              <h1 class="absolute text-2xl font-black uppercase xl:text-4xl bottom-6 left-8">adventure golf</h1>
+            </div>
+            <div class="w-full h-80 xl:h-[60vh] rounded-2xl relative bg-[url('/assets/images/home-lessons-1024x682.avif')] bg-center bg-cover">
+  
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black opacity-50 backdrop-blur-[1px] rounded-2xl"></div>
+              
+              <h1 class="absolute text-2xl font-black uppercase xl:text-4xl bottom-6 left-8">golf lessons</h1>
+            </div>
+          </div>
+        </div>
+        
+        <div id="signup" class="relative z-50 flex items-center justify-center px-4 overflow-hidden leading-loose text-black h-36 gradient xl:my-20 xl:h-80">
+          <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" class="absolute w-20 rotate-180 opacity-75 xl:w-72 left-1">
+          <h3 class="relative z-50 text-xl font-black text-center uppercase">Sign up for Sidcup News and Special Offers <br> Straight to Your Inbox</h3>
+          <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" class="absolute w-20 opacity-75 right-1 xl:w-72">
+        </div>
+        
+        <div id="menu" class="relative z-50 flex flex-col items-center h-full gap-8 p-4 xl:flex-row xl:px-40 xl:gap-32">
+          <div id="left" class="w-full xl:w-[50vw] ">
+            <img src="/assets/images/cafe-menu-1.avif" alt="" class="object-cover w-full rounded-xl h-72 xl:h-[25vw] ">
+          </div>
+          <div id="right" class="flex flex-col gap-4 text-start xl:w-2/3">
+            <h3 class="text-3xl font-black uppercase xl:text-5xl">Food and Drink</h3>
+            <p class="leading-relaxed xl:text-xl">Whether you're getting ready to play, just finishing your practice session or feeling peckish on the range, we have a variety of food and drink options bought directly to your table or bay.</p>
+            <p class="leading-relaxed xl:text-xl">We make sure that we cater for everyone, offering a range of vegan and gluten free options.</p>
+            <button type="button" class="border-2 uppercase text-[13px] xl:text-lg font-medium border-[#B3E824] rounded-full px-8 p-[0.6rem] bg-black w-fit">coffee shop</button>
+          </div>
+        </div>
+        
+        <div id="last-cards" class="relative z-50 px-4 py-10 xl:mt-20 h-fit">
+          
+          <h2 class="absolute  font-['Gilroy'] xl:text-[12vh] uppercase text-[#B3E824] xl:left-40  text-2xl left-8 top-[57px] md:top-0 xl:text-black ">What are you waiting for ?</h2>
+          <div id="card-container" class="relative flex flex-col gap-4 mt-10 xl:flex-row xl:px-32 xl:gap-16">
+  
+            <div class="w-full h-40 xl:h-[17vh] rounded-2xl flex items-center justify-center relative bg-[url('/assets/images/page-toptracer-1024x683.avif')] bg-center bg-cover ">
+              
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black xl:bg-[#B3E824] opacity-50 hover:bg-black xl:hover:bg-opacity-50 backdrop-blur-[1px] rounded-2xl transition"></div>
+              
+              <h1 class="relative z-50 text-2xl font-black uppercase">toptracer range</h1>
+            </div>
+            <div class="w-full h-40 xl:h-[17vh] rounded-2xl flex items-center justify-center relative bg-[url('/assets/images/page-lessons-1024x683.avif')] bg-center bg-cover">
+              
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black xl:bg-[#B3E824] opacity-50 hover:bg-black xl:hover:bg-opacity-50 backdrop-blur-[1px] rounded-2xl transition"></div>
+              
+              <h1 class="relative z-50 text-2xl font-black uppercase">adventure golf</h1>
+            </div>
+            <div class="w-full h-40 xl:h-[17vh] rounded-2xl flex items-center justify-center relative bg-[url('/assets/images/page-ag-1024x682.avif')] bg-center bg-cover">
+              
+              <!-- blur overlay -->
+              <div class="absolute inset-0 bg-black xl:bg-[#B3E824] opacity-50 hover:bg-black xl:hover:bg-opacity-50 backdrop-blur-[1px] rounded-2xl transition"></div>
+              
+              <h1 class="relative z-50 text-2xl font-black uppercase">golf lessons</h1>
+            </div>
+          </div>
+        </div>
+        
+        <div id="footer" class="relative z-50 flex flex-col p-4 text-black gradient-radial xl:h-[45vh] xl:justify-around  xl:px-36">
+          <div id="top" class="flex flex-col xl:items-center xl:justify-start xl:flex-row xl:gap-40">
+            <div id="logo" class="mt-1 h-fit xl:mt-0">
+              <img src="/logo-white.svg" alt="" class="h-[78px] xl:h-24">
+            </div>
+            <div id="links" class="flex flex-col mt-16 text-2xl font-black uppercase xl:flex-row xl:text-3xl xl:gap-40">
+              <div class="flex flex-col xl:gap-4">
+                <h4 class="transition hover:text-white">crazy golf</h4>
+                <h4 class="transition hover:text-white">toptracer range</h4>
+                <h4 class="transition hover:text-white">cafe</h4>
+              </div>
+              <div class="flex flex-col xl:gap-4">
+                <h4 class="transition hover:text-white">events</h4>
+                <h4 class="transition hover:text-white">golf lessons</h4>
+                <h4 class="transition hover:text-white">contact us</h4>
+              </div>
+            </div>
+            <div id="address" class="flex flex-col mt-6 font-medium uppercase xl:mt-14 xl:text-lg xl:font-semibold">
+              <h5>a20, Sidcup bypass</h5>
+              <h5>chislehurst</h5>
+              <h5>kent</h5>
+              <h5>br7 6rp</h5>
+              <h5>Tel: <a href="tel:+0208 309 0181">0208 309 0181</a></h5>
+              <h5 class="font-black xl:mt-2 xl:text-xl">Get directions</h5>
+            </div>
+          </div>
+          <div id="bottom" class="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+            <div class="text-[11px] mt-5 xl:flex font-medium xl:text-sm xl:mt-0 ">
+              <h6>Copyright © 2023 Adventure Leisure Ltd. All rights reserved.</h6>
+              <div class="flex items-center xl:-mt-1">
+                <span class="mx-1 text-lg font-normal">|</span> 
+                <h6>Privacy Policy</h6> 
+                <span class="mx-1 text-lg font-semibold">|</span> 
+                <h6>Terms And Condition</h6> 
+                <span class="mx-1 text-lg font-semibold">|</span> 
+                <h6>Gender Pay Gap</h6>
+              </div>
+            </div>
+            <div class="text-[12px] py-4 font-medium xl:text-sm">
+              <h5>Web Design London</h5>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

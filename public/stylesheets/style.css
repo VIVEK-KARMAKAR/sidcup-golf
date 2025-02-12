@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&display=swap');
+@import "tailwindcss";
+
+.stroke{
+    -webkit-text-stroke: 1px white;
+    color: black;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.gradient{
+    background: linear-gradient(to top right, #ABDC23,  #3AAA31);
+}
+.gradient-radial{
+    background: radial-gradient(circle at left bottom, #ABDC23 50%,  #3AAA31 85%);
+}
+.transition{
+    transition: all linear 0.2s;
+}
+
+#hero h1{
+    z-index: 3;
+    position: relative;
+    width: fit-content;
+}
+
+#hero h1::before{
+    content: "EAT. DRINK. PLAY.";
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: -5px;
+    color: black;
+    -webkit-text-stroke: #ABDC23 1px;
+}
+
+#marquee{
+    animation: scroll ;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#about-images-toptracer img{
+    box-shadow: 0 0 50px #b4e82465;
+}
+
+
+@media (max-width: 486px){
+
+    #hero h1::before{
+        content: "EAT. DRINK. PLAY.";
+        position: absolute;
+        z-index: -1;
+        top: -3px;
+        left: -3px;
+        color: black;
+        -webkit-text-stroke: #ABDC23 1px;
+    }
+
+    #hero-text-tracer>h1::before{
+        content: "toptracer range";
+        position: absolute;
+        z-index: -1;
+        top: -3px;
+        left: -3px;
+        color: black;
+        -webkit-text-stroke: #ABDC23 1px;
+    }
+
+}
+
+@media (min-width: 1000px){
+
+    #last-cards h2{
+        -webkit-text-stroke: 1px white;
+    }
+
+    #hero-text-tracer>h1::before{
+        content: "toptracer range";
+        position: absolute;
+        z-index: -1;
+        top: -3px;
+        left: -3px;
+        color: black;
+        -webkit-text-stroke: #ABDC23 1px;
+    }
+
+    
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+@media (min-width:1000px) {
+    
+    #hero-text-tracer>h1::before{
+        content: "toptracer range";
+        position: absolute;
+        z-index: -1;
+        top: -5px;
+        left: -5px;
+        color: black;
+        -webkit-text-stroke: #ABDC23 1px;
+    }
+
+}
+@media (max-width:500px) {
+    
+    #hero-text-tracer>h1::before{
+        content: "toptracer range";
+        position: absolute;
+        z-index: -1;
+        top: -3px;
+        left: -3px;
+        color: black;
+        -webkit-text-stroke: #ABDC23 1px;
+    }
+
+    #about-images-toptracer img{
+        box-shadow: 10px 10px 5px gray;
+    }
+
+}
