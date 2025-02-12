@@ -1,5 +1,4 @@
 import 'remixicon/fonts/remixicon.css'
-import '/stylesheets/style.css'
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
